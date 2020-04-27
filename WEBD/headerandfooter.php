@@ -8,7 +8,7 @@
 
  ?>
   <!--
-    Name: Hector Mariscal, Bo Zheng, Michelle Kirkwood
+    Name: Hector Mariscal, Michelle Kirkwood
     Group: 09
     File: header.php
     Date: Oct 4, 2018

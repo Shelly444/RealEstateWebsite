@@ -1,6 +1,6 @@
  	<!--
 <<<<<<< HEAD
-		Name: Hector Mariscal, Bo Zheng, Michelle Kirkwood
+		Name: Hector Mariscal, Michelle Kirkwood
 		Group: 09
 		File: footer.php
 		Date: Oct 04, 2018

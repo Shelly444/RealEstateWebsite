@@ -1,6 +1,6 @@
 <?php
 /*
-Hector Mariscal, Bo Zheng, Michelle Kirkwood
+Hector Mariscal, Michelle Kirkwood
 2018-04-18
 WEBD3201
 */

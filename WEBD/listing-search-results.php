@@ -1,6 +1,6 @@
 <?php
 /*
-Hector Mariscal
+Hector Mariscal, Michelle Kirkwood
 2018-12-09
 WEBD3201 - Listing Search Results
 */

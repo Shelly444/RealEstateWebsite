@@ -1,5 +1,5 @@
 <?php
-	//Hector Mariscal
+	//Hector Mariscal, Michelle Kirkwood
 	//Privacy
   require "./header.php";
   

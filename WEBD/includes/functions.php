@@ -1,13 +1,13 @@
 <?php
 /*
-Hector Mariscal
+Hector Mariscal, Michelle Kirkwood
 2018-04-18
 WEBD2201
 */
 	
 function display_copyright()
 {
-	$name="Hector  Mariscal, Bo Zheng, Michelle Kirwood - Group 09";
+	$name="Hector  Mariscal, Michelle Kirwood - Group 09";
 	$footerStrip='&copy;'. date('Y').' ' . $name;
 		
 	return $footerStrip;
