@@ -1,0 +1,24 @@
+$user_insert = pg_prepare($conn, "user_insert", "INSERT INTO users(user_id, password, user_type, email_address, enrol_date, last_access) VALUES ($1, $2, $3, $4, $5, $6");
+$user_check = pg_prepare($conn, "user_check", "SELECT * FROM users WHERE user_id = $1");
+$user_types = array('');
+function get_random_element($array)
+{
+	return $array[mt_rand()%sizeof($array)];
+}
+function is_existing_id($id)
+{
+	return pg_num_rows(pg_execute($conn, "user_check", array($id)))?true:false;
+}
+for ($i = 0;$i <= 20;$i++)
+{
+	$user_type = get_random_element($user_type);
+	$last_name = strtolower(($i%2 == 0)?get_random_element($male_names):get_random_element(female_names));
+	$user_id = $last_name . substr($first_name, 0, 1);
+	$password = hash(HASH_ALGO, "a");
+	while(is_existing_id($user_id))
+	{
+	
+	
+	pg_execute($conn, "user_insert", array($user_id, $password, $email_address, $user_type, $enrol_date, $last_access));
+}
+}
